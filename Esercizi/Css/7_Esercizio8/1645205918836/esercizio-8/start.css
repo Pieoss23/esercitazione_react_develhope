@@ -1,0 +1,14 @@
+#container{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+#container > section{
+    flex-basis: 40px;
+}
+
+#orange{
+    
+}
