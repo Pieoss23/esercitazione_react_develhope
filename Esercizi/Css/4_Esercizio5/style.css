@@ -1,0 +1,36 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 20%;
+    padding: 20px;
+}
+
+.card img{
+    height: 200px;
+
+}
+
+.card li{
+    list-style: none;
+    padding: 0.5em;
+    border: 1px solid lightgray;
+} 
+
+.card a{
+    color: blue;
+    padding: 0.5em;
+} 
+
+.class__links{
+    border: 1px solid lightgray;
+    padding: 0.5em;
+
+}
+
+.class__main_content{
+    padding: 0.5em;
+    border: 1px solid lightgray;
+
+}

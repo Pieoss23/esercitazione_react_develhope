@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+#navbar{
+    background-color: #1c2e2b;
+    border-bottom: 1px solid white ;
+    display: flex;
+    justify-content: center;  
+    }
+
+#navbar ul{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+}
+
+#navbar li, a{ 
+    flex-direction: column;
+    color: white;
+    list-style: none;
+    padding: 1em;
+    text-decoration: none;
+}
+
+button{
+    border: 1px solid #3e8e41;
+    background-color: #1c2e2b;
+    color: #3e8e41 ;
+}
+
+button:hover{
+  background-color: #3e8e41;
+  color: #1c2e2b;
+  cursor: pointer ;
+}
+
+.navbar__search_group{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__search_group input, button{
+    height: 2em;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+/* The container <div> - needed to position the dropdown content */
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}   
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -.125em;
+    fill: white ;
+  }
+
+  #dropdown_group{
+      display: flex;
+      align-items: center;
+  }
+
+  #disabled{
+    color: darkgray;
+    pointer-events: none; 
+    cursor: default;
+  }

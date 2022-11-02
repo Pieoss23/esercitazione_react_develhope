@@ -10,15 +10,14 @@
 .operator{
     background-color: rgb(173, 177, 185);
     height: 100px;
-    width: 25vw;
+    border: 1px solid black;
 
 }   
 
 
 .operators{
-    display: grid;
+    grid-template-rows: auto auto auto auto;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto;
   }
 
 .button{
@@ -35,14 +34,12 @@
 }
 
 .calc_display{
-    display: grid;
-    grid-column: 1 / 4;
+    grid-column: 2 / 4;
     height: 100px;
 }
 
 .numbers{
     display: grid;
-    grid-column: 1 / 4;
-    grid-row: 3 / 7;
+    grid-template-columns: repeat(4, 1fr);
 }
 

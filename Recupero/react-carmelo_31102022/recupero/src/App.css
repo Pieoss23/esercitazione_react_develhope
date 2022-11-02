@@ -1,0 +1,12 @@
+.App {
+  display: grid;
+  justify-content: center;
+  margin: 3em;
+  padding: 20px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
