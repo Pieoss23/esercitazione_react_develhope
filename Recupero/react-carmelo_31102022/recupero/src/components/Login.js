@@ -15,7 +15,10 @@ export default function Login() {
   };
 
   return (
-    <form className="form-box" onSubmit={handleSubmit}>
+    <form
+      className="d-flex justify-content-center mx-auto gap-5"
+      onSubmit={handleSubmit}
+    >
       <input
         type="text"
         name="firstName"
